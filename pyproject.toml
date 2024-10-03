@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dacon-veg"
+version = "0.1.0"
+description = ""
+authors = ["jangtaehun <jangth0056@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+xgboost = "^2.1.1"
+lightgbm = "^4.5.0"
+pandas = "^2.2.3"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+jupyter = "^1.1.1"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
